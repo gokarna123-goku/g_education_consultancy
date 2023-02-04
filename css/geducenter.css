@@ -170,7 +170,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 83vh;
 }
 
 .info_box{
@@ -214,9 +214,10 @@
     flex-direction: column;
 }
 .branch_img{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    /* border-radius: 50%; */
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     padding: 2.2px;
     background: linear-gradient(145deg, #ff7070, #21384e);
     transition: 0.5s ease-out;
