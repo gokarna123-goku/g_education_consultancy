@@ -1,0 +1,197 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.text-xxl{
+    font-size: 3.3rem;
+    font-weight: 600;
+    letter-spacing: 0.13rem;
+    line-height: 4.3rem;
+}
+.highlight_text{
+    font-size: 3.5rem;
+    font-size: 900 !important;
+    letter-spacing: 0.2rem !important;
+}
+.text-m{
+    font-size: 1.1rem;
+}
+.secondary{
+    color: #dbdbdb;
+}
+.ls-m{
+    letter-spacing: 0.09rem;
+}
+.ls-sm{
+    letter-spacing: 0.03rem;
+}
+.btn{
+    border-radius: 0px !important;
+    font-size: 1.03rem;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+.form-control:focus, .form-control:active:focus, .form-control.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control{
+    border-radius: 0px !important;
+}
+.form-select{
+    border-radius: 0px;
+}
+.form-select:focus, .form-select:active:focus, .form-select.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-check-input[type=checkbox]{
+    border-radius: 0px !important;
+}
+.form-check-input:focus, .form-check-input:active:focus, .form-check-input.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* Navbar Styling */
+
+.navbar_section{
+    background: #121a28;
+}
+
+.logo{
+    color: #0762ff;
+}
+
+.navbar_section .navbar-nav .nav-link{
+    color: #bfbfbf;
+    font-size: 1.0833rem;
+    font-weight: 500;
+    letter-spacing: 0.0510rem;
+    cursor: pointer;
+}
+.navbar_section .navigation_nav .nav-link{
+    color: #bfbfbf;
+    font-size: 1.0833rem;
+    font-weight: 400;
+    letter-spacing: 0.0510rem;
+    cursor: pointer;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    border-top: 2px solid transparent;
+    transition: 0.5s ease-out;
+}
+.navbar_section .navigation_nav .nav-link:hover{
+    border-top: 2px solid #35568f;
+}
+.navbar_section .navigation_nav .active{
+    font-weight: 600;
+    letter-spacing: 0.0810rem;
+    border-top: 2px solid #35568f;
+}
+
+
+/* Category Subnavbar section */
+.study_abroad_nav{
+    position: relative;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.study_abroad_subnav{
+    position: absolute;
+    left: 4%;
+    width: 230px;
+    background: #121a28;
+    /* border: 2px solid #1b1e2e; */
+    box-shadow: 0 0.2px 13px #00000026;
+    display: none;
+    transition: 0.5s ease-out;
+    z-index: 999;
+}
+
+.study_abroad_nav:hover .study_abroad_subnav{
+    display: inline-block;
+    animation: slideup .5s ease;
+}
+
+.study_abroad_subnav li{
+    list-style: none;
+}
+
+/* Animation on sub-navbar items */
+@keyframes slideup{
+	0%{
+		opacity: 0;
+		transform: translateY(25px);
+	}
+	100%{
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.dropdown-menu{
+    background: #121a28;
+    box-shadow: 0 0.2px 13px #00000026;
+    border-top: 2px solid #35568f;
+    border-radius: 0;
+}
+.dropdown-item{
+    color: #bfbfbf;
+    transition: 0.3s ease-out;
+}
+.dropdown-item:hover{
+    /* background: #172132; */
+    background: #22314b;
+    color: #bfbfbf;
+}
+
+
+/* Landing Page Styling */
+.landing_page{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.72)), url('../img/bg_1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.info_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info_box .info_data{
+    width: 45%;
+}
+.info_box .info_form{
+    width: 30%;
+}
+.info_box .info_form .form{
+    background-color: rgba(245, 245, 245, 0.099);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    -webkit-box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+    box-shadow: 30px 30px 35px rgba(101, 101, 101, 0.25);
+    border: 2px solid rgba(255, 246, 246, 0.08);
+    /* border: 2px solid rgba(255, 246, 246, 0.1); */
+}
+
+
+/* End of Styling */
