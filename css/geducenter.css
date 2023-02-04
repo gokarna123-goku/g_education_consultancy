@@ -21,6 +21,9 @@
     font-size: 900 !important;
     letter-spacing: 0.2rem !important;
 }
+.text-l{
+    font-size: 1.7rem;
+}
 .text-m{
     font-size: 1.1rem;
 }
@@ -191,6 +194,37 @@
     box-shadow: 30px 30px 35px rgba(101, 101, 101, 0.25);
     border: 2px solid rgba(255, 246, 246, 0.08);
     /* border: 2px solid rgba(255, 246, 246, 0.1); */
+}
+
+
+/* World wide styling */
+.branches_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.branch_data_section{
+    width: 220px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.branch_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 2.2px;
+    background: linear-gradient(145deg, #ff7070, #21384e);
+    transition: 0.5s ease-out;
+}
+.branch_destination{
+    color: #121a28;
+    font-weight: 600;
+    letter-spacing: 0.18rem;
 }
 
 
