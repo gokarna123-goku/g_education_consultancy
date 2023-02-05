@@ -18,8 +18,14 @@
 }
 .highlight_text{
     font-size: 3.5rem;
-    font-size: 900 !important;
+    font-weight: 900 !important;
     letter-spacing: 0.2rem !important;
+}
+.text-xl{
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 0.10rem;
+    color: #22314b;
 }
 .text-l{
     font-size: 1.7rem;
@@ -245,10 +251,59 @@
 }
 
 .branch_destination{
-    color: #121a28;
-    font-weight: 600;
+    font-weight: bolder;
+    /* letter-spacing: 0.10rem; */
+    color: #22314b;
     letter-spacing: 0.18rem;
 }
 
+/* About Styling */
+.about_img{
+    width: 98%;
+    height: 60vh;
+    -webkit-filter: brightness(43%);
+    filter: brightness(43%);
+    transition: 0.5s ease-out;
+}
+.about_img:hover{
+    width: 98%;
+    height: 60vh;
+    -webkit-filter: brightness(68%);
+    filter: brightness(68%);
+    transform: scale(0.9892);
+}
+.about_list_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.about_list_box .tick{
+    width: 26px;
+    height: 26px;
+    background: #22314b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_btn{
+    color: #121a28;
+    /* overflow: hidden;
+    transition-duration: 0.2s;
+    transition-property: transform; */
+}
+.video_btn:hover{
+    color: #0762ff;
+    /* transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); */
+}
+
+.about_video_box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
 /* End of Styling */
