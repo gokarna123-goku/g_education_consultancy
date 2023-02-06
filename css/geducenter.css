@@ -33,8 +33,11 @@
 .text-m{
     font-size: 1.1rem;
 }
-.secondary{
+.primary{
     color: #dbdbdb;
+}
+.secondary{
+    color: #bfbfbf;
 }
 .ls-m{
     letter-spacing: 0.09rem;
@@ -258,6 +261,10 @@
 }
 
 /* About Styling */
+.about_section{
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
 .about_img{
     width: 98%;
     height: 60vh;
@@ -304,6 +311,60 @@
     display: flex;
     justify-content: start;
     align-items: center;
+}
+
+/* Services Styling */
+.service_box_section{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.service_box{
+    background: #121a28;
+    width: 300px;
+    height: auto;
+    transition: 0.6s ease-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.service_box:hover{
+    box-shadow: 4px 4px 2px #707070,
+                -3px -3px 2px #bfbfbf;
+}
+.service_img_box{
+    position: relative;
+}
+.country_flag{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    /* padding: 0.2rem; */
+    border: 1px solid #121a28;
+}
+.service_img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    object-position: center;  
+    overflow: hidden;
+    transition: transform .3s ease-out;
+    display: inline-block;
+}
+.service_img:hover{
+    transform: translate(0, -5px);
+}
+
+.service_data{
+    background: #121a28;
+    overflow: hidden;
 }
 
 /* End of Styling */
