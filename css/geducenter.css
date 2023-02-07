@@ -33,6 +33,9 @@
 .text-m{
     font-size: 1.1rem;
 }
+.text-sm{
+    font-size: 0.983em;
+}
 .primary{
     color: #dbdbdb;
 }
@@ -75,6 +78,13 @@
 .form-check-input:focus, .form-check-input:active:focus, .form-check-input.active:focus{
     outline: none;
     box-shadow: none;
+}
+.hr{
+    background: #8d8c8c;
+    height: 1.2px !important;
+    border-radius: 10px;
+    border-right: 50px solid #121a28;
+    border-left: 50px solid #121a28;
 }
 
 
@@ -179,14 +189,14 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 83vh;
+    height: 95vh;
 }
 
 .info_box{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 .info_box .info_data{
@@ -260,11 +270,17 @@
     letter-spacing: 0.18rem;
 }
 
-/* About Styling */
-.about_section{
+/* Branch Styling */
+.branch_section{
     border-top: 1px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
 }
+
+/* About Styling */
+/* .about_section{
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+} */
 .about_img{
     width: 98%;
     height: 60vh;
@@ -351,7 +367,7 @@
 }
 .service_img{
     width: 100%;
-    height: 25vh;
+    height: 32vh;
     object-fit: cover;
     object-position: center;  
     overflow: hidden;
@@ -366,5 +382,51 @@
     background: #121a28;
     overflow: hidden;
 }
+
+/* Team Styling */
+.teams_section_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.team_box{
+    width: 400px;
+    height: auto;
+    background: #22314b;
+    cursor: pointer;
+}
+.team_img_box{
+    position: relative;
+    overflow: hidden;
+}
+.team_img{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    transition: 0.78s ease-out;
+}
+.team_img:hover{
+    scale: 1.2;
+}
+.team_position{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: #ff4800;
+}
+/* .arrow_icon{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+} */
+
+.team_info{
+    background: #22314b;
+}
+
 
 /* End of Styling */
