@@ -470,6 +470,10 @@
     height: 40vh;
     border-bottom: 1px solid #0762ff;
 }
+.detail_section{
+    width: 100%;
+    border-bottom: 1px solid #35568f;
+}
 .detail_img{
     width: 100%;
     height: 36vh;
