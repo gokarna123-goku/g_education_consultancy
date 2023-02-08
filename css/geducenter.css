@@ -460,4 +460,23 @@
     background: #121a28;
 }
 
+/*  */
+/* Country Detail Page Styling */
+.study_abroad_detail_section{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.80)), url('../img/bg_12_1.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-bottom: 1px solid #0762ff;
+}
+.detail_img{
+    width: 100%;
+    height: 36vh;
+}
+.last_detail_img{
+    width: 100%;
+    height: 56vh;
+}
+
 /* End of Styling */
