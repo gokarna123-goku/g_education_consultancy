@@ -333,9 +333,9 @@
 .service_box_section{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.8rem;
     flex-wrap: wrap;
 }
 .service_box{
@@ -377,10 +377,64 @@
 .service_img:hover{
     transform: translate(0, -5px);
 }
-
 .service_data{
     background: #121a28;
     overflow: hidden;
+}
+
+
+/* Choose Us Styling */
+/* background: #d3d3d3; */
+/* background: #f8f9fa; */
+.choose_us_section{
+    width: 100%;
+    background: #e6e6e6;
+}
+.choose_boxes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.choose_box{
+    /* background: transparent; */
+    width: 410px;
+    height: auto;
+    box-shadow: 0.2px 0.2px 2px #bfbfbf;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.choose_box:hover{
+    /* background: #22314b; */
+    box-shadow: 0.2px 0.2px 10px #8d8c8c;
+    border-radius: 0px;
+}
+.choose_icon_box i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-out;
+}
+.choose_box:hover .choose_icon_box i{
+    color: #6d94d6 !important;
+    /* transform: translate(0, -10px); */
+    transform: scale(1.4);
+}
+.reason_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.10rem;
+    color: #22314b;
+    transition: transform 0.5s ease-out;
+}
+.choose_box:hover .reason_title{
+    /* color: #dbdbdb; */
+    transform: scale(1.1);
 }
 
 /* Team Styling */
