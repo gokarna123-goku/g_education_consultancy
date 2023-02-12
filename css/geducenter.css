@@ -472,11 +472,6 @@
     right: 0px;
     background: #ff4800;
 }
-/* .arrow_icon{
-    position: absolute;
-    bottom: 0px;
-    right: 50px;
-} */
 
 .team_info{
     background: #22314b;
@@ -535,6 +530,18 @@
 .last_detail_img{
     width: 100%;
     height: 56vh;
+}
+
+
+/* ======================== track_visa.html Styling ========================= */
+/* Section Styling */
+.track_visa_section{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.80)), url('../img/bg_12_1.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    border-bottom: 1px solid #0762ff;
 }
 
 /* End of Styling */
