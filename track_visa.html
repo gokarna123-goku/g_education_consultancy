@@ -82,7 +82,7 @@
                             <a class="nav-link" href="#">Make an Inquiry</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  aria-current="page" href="track_visa.html">Track Visa</a>
+                            <a class="nav-link active" aria-current="page" href="track_visa.html">Track Visa</a>
                         </li>
                     </ul>
                     <!-- Left links -->
@@ -139,7 +139,7 @@
 
     <!-- Starter Section -->
     <div class="container-fluid px-0 mx-0 track_visa_section py-5">
-        <div class="container col-lg-11 my-5 pt-3">
+        <div class="container col-lg-11 my-5 pt-5">
             <div class="container col-lg-5">
                 <h2 class="text-l fw-bold ls-m secondary text-center">
                     Track your Visa Status,
@@ -147,6 +147,45 @@
             </div>
         </div>
     </div>
+
+    <!-- Track Section -->
+    <div class="container-fluid px-0 mx-0 track_box py-5 bg-light">
+        <div class="container col-lg-11">
+            <div class="container col-lg-4 shadow-sm border">
+                <div class="p-3">
+                    <div class="mb-4">
+                        <h6 class="text-secondary fw-bold ls-sm text-m mb-0">Information needs to be accurate.</h6>
+                        <hr class="hr mt-0">
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <!-- <label for="" class="mb-1 tertiary"></label> -->
+                            <input type="text" class="form-control border" placeholder="Full Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control border" placeholder="Code">
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select your visa type</option>
+                                <option value="student visa">Student Visa</option>
+                                <option value="working visa">Working Visa</option>
+                                <option value="visit visa">Visit Visa</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control border" onblur="if(this.value==''){this.type='text'}"
+                                onfocus="(this.type='date')" placeholder="Date of Birth">
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center my-3">
+                            <button type="submit" class="btn btn-sm btn-info px-4">View Status</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Footer Section -->
     <div class="container-fluid px-0 mx-0 mb-0" style="background-color: #1c2331">
