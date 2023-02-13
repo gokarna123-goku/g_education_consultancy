@@ -544,4 +544,55 @@
     border-bottom: 1px solid #0762ff;
 }
 
+
+/* ======================== blogs.html Styling ========================= */
+/* Section Styling */
+.latest_blog_section{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.80)), url('../img/bg_8.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    border-bottom: 1px solid #0762ff;
+}
+
+.blog_box_section{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.blog_box{
+    width: 400px;
+    height: auto;
+    background: #22314b;
+}
+.blog_img{
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    object-position: center;
+}
+.date_post_data{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+.post_user_section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.date_section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
 /* End of Styling */
